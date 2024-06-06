@@ -4,7 +4,7 @@
 
 - 🔭 I’m currently working on **Fantasy**
 
-- 👨‍💻 All of my projects are available at [rajendra0968jangid](rajendra0968jangid)
+- 👨‍💻 All of my projects are available at(rajendra0968jangid)
 
 - 💬 Ask me about **react and node**
 
