@@ -13,7 +13,7 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag myimage123
+      run: docker build . --file Dockerfile --tag myimage
 
     - name: Stop and remove existing container (if running)
       run: |
@@ -21,4 +21,4 @@ jobs:
         docker rm ak || true
 
     - name: Run Docker container
-      run: docker run -d --name ak -p 80:80 myimage123
+      run: docker run -d --name ak -p 80:80 myimage
